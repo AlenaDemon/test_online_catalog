@@ -23,3 +23,5 @@
 | PostCSS | Обработка CSS |
 | ESLint + Prettier | Кодстайл и форматирование |
 
+---
+API https://dummyjson.com/docs/products может требовать VPN для корректного доступа из некоторых регионов.
