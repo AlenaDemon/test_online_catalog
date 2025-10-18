@@ -27,3 +27,22 @@
 Проект использует **Redux Toolkit Query** (`@reduxjs/toolkit/query/react`) для работы с API.  
 База данных для демонстрации — [DummyJSON](https://dummyjson.com/docs/products). 
 API https://dummyjson.com/docs/products может требовать VPN для корректного доступа из некоторых регионов.
+
+
+---
+
+## Установка и запуск
+
+### 1. Клонировать репозиторий
+```bash
+git clone https://github.com/AlenaDemon/test_online_catalog.git
+cd test_online_catalog
+```
+### 2. Установить зависимости
+```bash
+npm install
+```
+### 3. Запустить локально
+```bash
+npm run dev
+```
