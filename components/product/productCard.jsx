@@ -13,7 +13,7 @@ export function ProductCard({ product }) {
   return (
     <div
       onClick={openProduct}
-      className="bg-white rounded shadow p-3 flex flex-col justify-between relative cursor-pointer hover:shadow-lg transition"
+      className="bg-white rounded shadow p-3 sm:px-4 flex flex-col justify-between relative cursor-pointer hover:shadow-lg transition"
     >
       <button
         className="absolute top-2 right-2 p-1 cursor-pointer bg-[#F3F2F1] rounded flex justify-center items-center transition"

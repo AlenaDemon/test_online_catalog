@@ -16,12 +16,11 @@ export function Header() {
   const path = router.pathname;
   const { id } = router.query;
   const { data: product } = useGetProductByIdQuery(id, { skip: !id });
-  const isSearchPage = path === "/";
 
   return (
     <>
       <header className="w-full bg-white shadow-lg sticky top-0 z-40">
-        <div className="flex flex-wrap items-center justify-between gap-4 px-4 md:px-8 lg:px-[116px] py-3">
+        <div className="flex flex-wrap items-center justify-between gap-4 px-4 sm:px-4 md:px-8 lg:px-[116px] py-3">
           <div className="flex items-center gap-4">
             <Image
               src={logo}

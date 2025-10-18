@@ -19,8 +19,8 @@ export function ImageGallery({ images }) {
   };
 
   return (
-    <div className="flex gap-6 items-start">
-      <div className="flex flex-col gap-3">
+    <div className="flex gap-6 items-start sm:px-4">
+      <div className="flex flex-col gap-3 sm:px-4">
         {imagesFilledArray.map((img, i) => (
           <button
             key={i}

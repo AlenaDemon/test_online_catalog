@@ -70,8 +70,8 @@ export default function HomePage() {
   return (
     <div className="bg-white min-h-screen flex flex-col text-[#414141]">
       <Header />
-      <main className="flex-grow">
-        <div className="px-[116px]">
+      <main className="flex-grow px-4 sm:px-6 md:px-[116px]">
+        <div>
           <SearchBar
             searchTerm={searchTerm}
             setSearchTerm={handleSearchTermChange}
