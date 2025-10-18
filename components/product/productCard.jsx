@@ -42,7 +42,7 @@ export function ProductCard({ product }) {
         </div>
 
         <div className="flex flex-col items-center">
-          <p className="text-[#414141] text-lg font-bold leading-[150%]">
+          <p className="text-[#414141] font-normal text-base leading-[150%]">
             ${product.price}
           </p>
           <p className="font-montserrat text-xs text-gray-600">Обычная</p>
