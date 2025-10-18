@@ -1,0 +1,41 @@
+export function MenuSvg() {
+  return (
+    <>
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line
+          x1="2.5"
+          y1="5.5"
+          x2="21.5"
+          y2="5.5"
+          stroke="currentColor"
+          strokeWidth="1"
+          opacity="1"
+        />
+        <line
+          x1="2.5"
+          y1="11.5"
+          x2="21.5"
+          y2="11.5"
+          stroke="currentColor"
+          strokeWidth="1"
+          opacity="1"
+        />
+        <line
+          x1="2.5"
+          y1="17.5"
+          x2="21.5"
+          y2="17.5"
+          stroke="currentColor"
+          strokeWidth="1"
+          opacity="1"
+        />
+      </svg>
+    </>
+  );
+}
