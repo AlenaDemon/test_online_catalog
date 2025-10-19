@@ -26,7 +26,6 @@
 ---
 Проект использует **Redux Toolkit Query** (`@reduxjs/toolkit/query/react`) для работы с API.  
 База данных для демонстрации — [DummyJSON](https://dummyjson.com/docs/products). 
-API https://dummyjson.com/docs/products может требовать VPN для корректного доступа из некоторых регионов.
 
 
 ---
